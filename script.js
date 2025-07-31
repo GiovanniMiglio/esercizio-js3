@@ -19,4 +19,9 @@ console.log(PIGREGO);
  let frase2 = "e la media equivale a";
  console.log( frase2, (media));
  
- 
+ // esercizio3//
+ let annoc = 2025, annodn=1989;
+ let diff = annoc - annodn;
+ let annim = (annodn + 100) - annoc;
+let frase3 = `Hai  ${diff} anni` ; frase4 = ` e ti mancano  ${annim} anni per compierne 100`
+console.log(frase3, frase4);
