@@ -25,3 +25,14 @@ console.log(PIGREGO);
  let annim = (annodn + 100) - annoc;
 let frase3 = `Hai  ${diff} anni` ; frase4 = ` e ti mancano  ${annim} anni per compierne 100`
 console.log(frase3, frase4);
+
+//esercizio4//
+
+let num3 = prompt( " perfavore inserisci un numero:", "numero");
+let num4 = prompt( " perfavore inserisci un altro numero:", "numero")
+let num5 = Number(num3); 
+let num6 = Number(num4);
+let somma1 = Number(num5 + num6); Number( sottrazione = num5 - num6); Number( moltiplicazione = num5 * num6);   Number(divisione = num5 / num6); Number( potenza= num5 ** num6);
+let frase5 = `Con i numeri da te scelti, i risultati delle varie operazioni sono: somma ${ somma1} , sottrazione ${sottrazione} , moltiplicazione ${ moltiplicazione} , divisione ${ divisione} , potenza ${ potenza} ,`; 
+console.log(frase5);
+
